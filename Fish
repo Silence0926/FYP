@@ -143,7 +143,7 @@ const Loop = () => {
     koi.forEach(v=>v.draw())
     webkitRequestAnimationFrame(Loop);
 }
-canst init = () => {
+const init = () => {
     document.body.style.margin = 0;
     let c = document.createElement("canvas");
     document.body.appendChild(c);
